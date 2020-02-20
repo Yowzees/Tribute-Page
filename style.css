@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  x-overflow: hidden;
+}
+.header-container{
+   color:  #fbefcc;
+    padding: 40px;
+  background-color:  #f4a688;
+  display: flex;
+  justify-content: center;
+   transform: skewX(-10deg);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.title{
+  font-size: 70px;
+ 
+}
+.other-title{
+  float: right;
+}
+
+body{
+  background-color: #fbefcc
+   
+  }
+
+
+
+   
+   
+#img-div {
+  position: absolute;
+  z-index: 2;
+  display: block;
+   margin-left: 55%;
+  margin-right: auto;
+ 
+}
+#image{
+
+  border: transparent;
+  max-width: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border-style: transparent;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: fatcat;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+  @keyframes fatcat {
+    0% { margin-top: 0px; }
+    50% { margin-top: 100px; }
+    100% { margin-top: 0px; }
+}
+#img-caption
+  {
+    color: #c94c4c;
+  font-size: 12px; 
+  padding: 5px;
+  font-family: 'Cherry Swash', cursive;
+  font-weight: 700;
+  text-align: center;
+    position: relative;
+   top: 500px;
+    left: 62%;
+    
+  
+   
+}
+#tribute-info{
+  position: relative;
+  top: 200px;
+  left: 6%;
+  border: transparent;
+  width: 40%;
+    padding-bottom: 50px;
+    margin-left: 5%;
+  margin-bottom: 200px;
+  background-color:  #f9ccac;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  z-index: 1
+   
+}
+
+h2 {
+  font-size: 40px;
+  color: #c94c4c;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-left: 15%;
+  
+}
+ul {
+  color: #c94c4c;
+ text-align: left;
+position:relative;
+border: transparent;
+margin-left: 17%;
+  padding-bottom: 50px;
+  
+
+}
+li{
+padding: 0;
+margin: 1.5em 0;
+
+ 
+}
+footer{
+  color: #c94c4c;
+     bottom: 0%;
+    position: relative;
+  padding-top: 150px;
+  text-align: center;
+}
+a {
+  color:   #563f46;
+}
